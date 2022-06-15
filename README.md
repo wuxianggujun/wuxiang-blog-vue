@@ -19,6 +19,10 @@ npm run build
 ```
 npm run lint
 ```
+### 安装了库
+Element-Plus
+yarn add element-plus
+
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).

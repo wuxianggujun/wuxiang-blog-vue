@@ -1,18 +1,15 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-
+  <router-link to="/">Home</router-link>
+  &nbsp;
+  &nbsp;
+  <router-link to="/about">About</router-link>
+  <router-view></router-view>
 </template>
 
 <script>
-
 export default {
   name: 'App',
-  mounted() {
-    console.log("BaseUrl"+process.env.VUE_APP_BASE_URL);
-  }
+  components: {}
+
 }
 </script>
-
-<style>
-
-</style>
